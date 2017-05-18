@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KinectPad</title>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<style>
+			body {
+				background: #eaefee;
+				margin: 0;
+			}
+			#navPort {
+				background: #ffffff;
+				position: fixed;
+				top: 0;
+				width: 100%;
+				padding: 10px 0px 10px 0px;
+				box-shadow: 0px 2px 10px #ffffff;
+			}
+			#logo {
+				font-size: 20px;
+				font-family: monospace;
+				margin-left: 10px;
+			}
+			.header {
+				font-size: 40px;
+			}
+			.descript {
+				margin-top: 10px;
+				font-size: 20px;
+				color: #585858;
+			}
+			#iTro {
+				margin-top: 70px;
+				font-family: sans-serif;
+				text-align: center;
+				color: #252525;
+				width: 60%;
+				margin-right: auto;
+				margin-left: auto;
+			}
+			.btn {
+				background: #0898e8;
+				color: #ffffff;
+				border: solid;
+				border-color: #0898e8;
+				font-size: 20px;
+				border-radius: 6px;
+				padding: 5px;
+				outline: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="navPort"><span id="logo">KinectPad</span></div>
+		<div id="iTro">
+			<span class="header">End the need for connection</span><br>
+			<span class="descript"><strong>KinectPad</strong> is a file sharing platform that <strong>never relies on the internet connection</strong>. From <strong>images</strong> to <strong>documents</strong>, you can share files wirelessly without internet anywhere, anytime!</span><br><br>
+			<button class="btn" onclick="init()"><strong>Get started</strong></button>
+		</div>
+	</body>
+</html>
